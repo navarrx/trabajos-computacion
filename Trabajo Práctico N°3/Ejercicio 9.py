@@ -1,0 +1,12 @@
+#Ejercicio 9
+file = open("C:/Users/santi/Desktop/Manejo de Archivos/Ejercicio 1/ejercicio1.txt","r")
+lineas = file.readlines()
+print("La cantidad de lineas es:",len(lineas))
+file = open("C:/Users/santi/Desktop/Manejo de Archivos/Ejercicio 1/ejercicio1.txt","r")
+texto = file.read()
+print(texto)
+palabras = texto.split()
+print(palabras)
+print("La cantidad de palabras es:", len(palabras))
+cantidad_caracteres = len(texto)
+print("La cantidad de caractéres es:",cantidad_caracteres)

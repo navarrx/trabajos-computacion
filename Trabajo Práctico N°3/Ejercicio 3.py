@@ -1,0 +1,7 @@
+#Ejercicio 3 (Preguntar)
+file = open("C:/Users/santi/Desktop/Manejo de Archivos/Ejercicio 1/ejercicio3.txt","r+")
+file.write(input("Ingrese el texto: "))
+file.write("\n")
+texto = file.readlines()
+print(texto)
+file.close()
